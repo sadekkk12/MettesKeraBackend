@@ -26,17 +26,6 @@ jobs:
 
    deploy:
      runs-on: ubuntu-latest
-
-    
-        
-          
-    
-
-        
-        Expand All
-    
-    @@ -50,4 +51,4 @@ jobs:
-  
     needs: build
     environment:
       name: 'Production'
