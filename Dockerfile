@@ -1,5 +1,5 @@
 FROM openjdk:17-jdk-slim-bullseye
-Docker  ENV JAVA_OPTS = "-Xmx256m -Xms128"
+ENV JAVA_OPTS="-Xmx256m -Xms128m"
 WORKDIR /app
 COPY .mvn/ .mvn
 COPY mvnw pom.xml ./
